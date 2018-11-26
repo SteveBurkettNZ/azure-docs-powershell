@@ -96,12 +96,13 @@ For general information about installing, learning, using, and customizing Windo
 |I am running on a version of Windows with PowerShell 3 or PowerShell 4|[Get the PackageManagement modules](http://go.microsoft.com/fwlink/?LinkID=746217)|
 
 <div id="helpmechoose"/>
-### Checking the version of Azure PowerShell
+
+## Checking the version of Azure PowerShell
 
 Although we encourage you to upgrade to the latest version as early as possible, several versions
-of Azure PowerShell are support. To determine the version of Azure PowerShell you have installed,
-run `Get-Module AzureRM` from your command line.
+of Azure PowerShell are supported. To determine the version of Azure PowerShell you have installed,
+run `Get-Module Azure` from your command line.
 
 ```powershell
-Get-Module AzureRM -list | Select-Object Name,Version,Path
+Get-Module Azure -list | Select-Object Name,Version,Path
 ```
